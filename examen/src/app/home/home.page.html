@@ -1,14 +1,33 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      Busquemos repositorios!!!
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+
+
+
+<ion-input type="text" [(ngModel)]="name" text-left placeholder="Ingrese palabra" id="input" ></ion-input>
+
+<ion-button color="primary" 
+(click)="Consultar()">
+Consultar datos
+</ion-button>
+
+  <ion-list >
+    
+    <ion-item *ngFor="let data of datos; let i = index">
+        <ion-label (click) = "presentModal( i )" > {{ i }}</ion-label>
+       
+        <ion-label> {{ data.name }}</ion-label>
+          <ion-label>{{ data.description }}</ion-label>
+            <ion-label> {{ data.html_url }}</ion-label>
+        
+    </ion-item>
+ </ion-list>
+
+
 </ion-content>

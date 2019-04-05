@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "516964447363",
+    "firebase_url": "https://consultagit.firebaseio.com",
+    "project_id": "consultagit",
+    "storage_bucket": "consultagit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516964447363:android:690ed35c1a5ea6f8",
+        "android_client_info": {
+          "package_name": "mediconet.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbYxGRTmnnNGK1Jqw94OHXXqwVyFrr2yk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516964447363-08dij0olf7vi9ekq1g90dfa8jmbl8g1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

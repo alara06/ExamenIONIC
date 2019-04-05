@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Informacion seleccionada</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-content padding>
+        <!-- img [src]="infocompleta[index].image" alt="foto" -->
+        <h3>La informacion que acba de seleccionar es</h3>
+
+
+        <h2>Nombre de la palicacion</h2>
+        <p> <b> {{datoS.name }} </b></p>
+        <h2>El login de quine lo sube es</h2>
+        <p> <b> {{datoS.login }} </b></p>
+        <h2>Direccion de la aplicacion</h2>
+        <p> <b> {{datoS.html_url }} </b></p>
+
+        <h2>descripcion</h2>
+        <p> <b> {{datoS.description }} </b></p>
+
+
+
+<ion-button color="primary" 
+(click)="Save()">
+Guardar info
+</ion-button>
+    </ion-content>
+    
+</ion-content>
